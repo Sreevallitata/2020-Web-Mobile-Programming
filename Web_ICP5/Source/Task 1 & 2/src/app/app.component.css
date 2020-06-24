@@ -1,0 +1,76 @@
+/deep/ .countdown {
+  width: 100%;
+  height: 100px;
+  background: cornflowerblue;
+}
+
+.measurements {
+  color: white;
+  margin-right: 5px;
+  padding: 10px;
+}
+
+.divider {
+  font-size: 30px;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+
+}
+form{
+  max-width: 30em;
+  margin: 4em auto;
+  position: relative;
+  background: beige;
+  padding: 2em 3em;
+  overflow: hidden;
+}
+form h1{
+  font-family: cursive;
+  color: coral;
+}
+form input[type=text]::placeholder{
+  font-family: cursive;
+  color: #2c1277;
+}
+form .data{
+  margin-top: 1em;
+}
+form .data li{
+  background: lavender;
+  border-left: 4px solid #2c1277;
+  padding: 1em;
+  margin: 1em auto;
+  color: #666;
+  font-family: cursive;
+}
+form .data li i{
+  float: right;
+  color: #888;
+  cursor: pointer;
+}
+form .input-group-text{
+  background: red;
+
+  width: 5px;
+  height: 5px;
+  padding: 23px;
+  color: #fff;
+  position: absolute;
+  right: 13px;
+
+  cursor: pointer;
+}
+form .input-group-text i{
+  font-size: 2em;
+}
+form .form-control{
+  height: 5em;
+  font-family: cursive;
+}
+form .form-control:focus{
+  box-shadow: 0;
+}
+
